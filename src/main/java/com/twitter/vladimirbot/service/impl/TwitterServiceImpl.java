@@ -24,10 +24,10 @@ import javax.annotation.PostConstruct;
 public class TwitterServiceImpl implements TwitterService {
 
     // Don't ever check your credentials into GitHub!
-    private static final String TWITTER_CONSUMER_KEY = "zKGiIcUkWouqxzRxLPWJTNS1d";
-    private static final String TWITTER_CONSUMER_SECRET = "PU9jUhUPsHzsBn7K53I4OvHpcECAeRc0GcRIK7KWCNAg78swJo";
-    private static final String TWITTER_ACCESS_TOKEN = "1163882948950679553-fXi3McgXNkVMBbp41NVAcuRn0UFy1F";
-    private static final String TWITTER_ACCESS_SECRET = "2vt3NC1AZ6y1c1byd4f8g2bBgTEueZvG5UFMCuLuz6aVa";
+    private static final String TWITTER_CONSUMER_KEY = "";
+    private static final String TWITTER_CONSUMER_SECRET = "";
+    private static final String TWITTER_ACCESS_TOKEN = "";
+    private static final String TWITTER_ACCESS_SECRET = "";
 
     // Filter query indicating which hashtags to retweet
     private static final FilterQuery FILTER_QUERY = new FilterQuery( "#VladimirBot",
